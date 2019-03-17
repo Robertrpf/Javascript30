@@ -1,0 +1,39 @@
+body {
+  background-color: #272727;
+  color: #fff;
+  background: url("./img/background.jpg") bottom center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.keys {
+  min-height: 100vh;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.keys div {
+  background-color: #272727;
+  border: 1px solid #fff;
+  padding: 2rem;
+  margin: 1rem;
+  transition: all 0.07s ease;
+  text-align: center;
+  border-radius: 0.3rem;
+}
+
+.playing {
+  transform: scale(1.1);
+  box-shadow: 0 0 1rem #ffc600;
+  border-color: #ffc600;
+}
+
+.sound {
+  display: block;
+  font-size: 0.7rem;
+  padding: 0.5rem;
+  color: #b38c00;
+}
